@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body class="container">
+    <header>
+        <div class="Head1">
+            <div>
+                <a class="footer-link" href="TextMAnadger.html">Отчёт</a>
+            </div>
+            <div>
+                <a class="footer-link" href="Schedule.html">Расписание</a>
+            </div>
+            <div>
+                <a class="footer-link" href="Homeindex.html">Личный кабинет</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <a class="footer-link1" href="HomeOage.html">Назад</a>
+        <div class="container4">
+            <h1>Отчёт для преподавателя</h1>
+            <div class="report">
+                <div><strong>Рабочие дни в году:</strong> <span>240</span></div>
+                <div><strong>Зарплата:</strong> <span>45,000 руб.</span></div>
+                <div><strong>Штрафы:</strong> <span>3,000 руб.</span></div>
+                <div><strong>Премии:</strong> <span>5,000 руб.</span></div>
+            </div>
+            <div class="footer5">
+                <p>Дата отчета: <span id="date"></span></p>
+            </div>
+        </div>
+        <div class="container4">
+            <h1>Отчёт для преподавателя</h1>
+            <div class="report">
+                <div><strong>Рабочие дни в году:</strong> <span>240</span></div>
+                <div><strong>Зарплата:</strong> <span>45,000 руб.</span></div>
+                <div><strong>Штрафы:</strong> <span>3,000 руб.</span></div>
+                <div><strong>Премии:</strong> <span>5,000 руб.</span></div>
+            </div>
+            <div class="footer5">
+                <p>Дата отчета: <span id="date"></span></p>
+            </div>
+        </div>
+        <div class="container4">
+            <h1>Отчёт для преподавателя</h1>
+            <div class="report">
+                <div><strong>Рабочие дни в году:</strong> <span>240</span></div>
+                <div><strong>Зарплата:</strong> <span>45,000 руб.</span></div>
+                <div><strong>Штрафы:</strong> <span>3,000 руб.</span></div>
+                <div><strong>Премии:</strong> <span>5,000 руб.</span></div>
+            </div>
+            <div class="footer5">
+                <p>Дата отчета: <span id="date"></span></p>
+            </div>
+        </div>
+        <script>
+            const date = new Date();
+            const formattedDate = date.toLocaleDateString('ru-RU');
+            document.getElementById('date').innerText = formattedDate;
+        </script>
+    </main>
+    <footer class="footer2">
+        <div class="footer-container">
+            <a href="#" class="footer-link">
+                <span>Главная</span>
+            </a>
+            <a href="#" class="footer-link">
+                <span>Отчеты</span>
+            </a>
+            <a href="#" class="footer-link">
+                <span>Настройки</span>
+            </a>
+            <a href="#" class="footer-link">
+                <span>Профиль</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
